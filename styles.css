@@ -17,7 +17,7 @@ header h1 {
 
 
 nav {
-  background-color:  #222560
+  background-color:  #222560;
   overflow:auto;
 }
 nav ul {
@@ -25,21 +25,32 @@ nav ul {
   font-size: 1.5em;
   margin: 0;
   padding: 0;
-
-
-
+}
+nav li{
   float: left;
   }
 
+
 nav a {
   display: inline-block;
-  padding-left: 0.5em;
+  padding: 0.5em;
   color: #dddddd;
   text-decoration: none;
-  font-family: sans-serif
-  border-right: 1px solid #dddddd
+  font-family: sans-serif;
+  border-right: 1px solid #dddddd;
 }
 
 nav a:hover {
-  background-color: #3100D20
+  background-color: #310D20;
+}
+
+main {
+  min-height: 300px;
+}
+footer {
+    border-top:  1px solid #171219;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: italic;
 }
