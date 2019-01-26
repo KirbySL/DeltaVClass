@@ -81,15 +81,16 @@ main section {
     font-size: 2em;
   }
 footer a {
-    color: #171219;
-
+    color: #efefef;
+}
     footer a:hover {
       color: #F0803C;
     }
-    border-top:  1px solid #171219;
+    footer {
+    border-top: 1px solid #171219;
     text-align: center;
     font-weight: bold;
     font-family: sans-serif;
     font-style: italic;
-
+    color: #efefef
 }
