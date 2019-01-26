@@ -1,3 +1,6 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 body {
   background-color: #253C78;
   color: #171219
@@ -46,11 +49,47 @@ nav a:hover {
 
 main {
   min-height: 300px;
+  background-color: #efefef;
 }
-footer {
+
+
+main aside {
+      width: 20%;
+      display: inline-block;
+      padding: 1em;
+      vertical-align: top;
+  }
+
+
+
+main section {
+  width: 79%;
+  border-left: 1px solid #171219;
+  display: inline-block;
+  padding: 1em;}
+  main section img {
+    width: 300px;
+    float: left;
+    margin: 0 0.5em 0.5em 0;
+}
+    main section p {
+      font-size: 1.3em;
+      line-height: 1.5em;
+      margin-bottom: 2em;
+  }
+  main aside h3, main section h2 {
+    font-size: 2em;
+  }
+footer a {
+    color: #171219;
+
+    footer a:hover {
+      color: #F0803C;
+    }
     border-top:  1px solid #171219;
     text-align: center;
     font-weight: bold;
     font-family: sans-serif;
     font-style: italic;
+
 }
